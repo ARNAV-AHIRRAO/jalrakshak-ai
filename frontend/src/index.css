@@ -1,0 +1,10 @@
+@import "tailwindcss";
+
+@layer components {
+  .field { @apply px-3 py-2.5 bg-slate-950/80 border border-slate-800 rounded-xl text-white placeholder-slate-500 text-xs focus:outline-none focus:ring-2 focus:ring-cyan-500; }
+  .btn-primary { @apply inline-flex items-center justify-center gap-2 px-3 py-2 rounded-xl bg-cyan-600 hover:bg-cyan-500 text-white text-xs font-semibold transition-colors disabled:opacity-50; }
+  .btn-secondary { @apply inline-flex items-center justify-center gap-2 px-3 py-2 rounded-xl bg-slate-800 hover:bg-slate-700 border border-slate-700 text-slate-200 text-xs font-semibold transition-colors; }
+  .icon-btn { @apply p-2 rounded-lg bg-slate-800 hover:bg-slate-700 text-slate-300 hover:text-white transition-colors; }
+  .badge { @apply px-2 py-0.5 rounded-md bg-slate-800 text-slate-300 border border-slate-700 text-[10px] uppercase; }
+  .panel-center { @apply min-h-48 rounded-2xl bg-slate-900/50 border border-slate-800 flex flex-col items-center justify-center gap-2 text-xs text-slate-400; }
+}
